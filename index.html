@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Praveen Kumar | ECE Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+  <!-- Cursor -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursorFollower"></div>
+
+  <!-- Noise overlay -->
+  <div class="noise"></div>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-logo">PK<span class="dot">.</span></div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#certifications">Certs</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-content">
+      <div class="hero-tag animate-in" style="--delay:0.1s">B.Tech ECE Student</div>
+      <h1 class="hero-name animate-in" style="--delay:0.25s">
+        Munagamanu<br/><span class="accent">Praveen</span><br/>Kumar
+      </h1>
+      <p class="hero-sub animate-in" style="--delay:0.45s">
+        Problem Solver &bull; Tech Enthusiast &bull; Leadership &bull; Communication
+      </p>
+      <div class="hero-cta animate-in" style="--delay:0.6s">
+        <a href="#about" class="btn-primary">Explore Portfolio</a>
+        <a href="#contact" class="btn-ghost">Get In Touch</a>
+      </div>
+    </div>
+    <div class="hero-visual animate-in" style="--delay:0.3s">
+      <div class="circuit-card">
+        <svg class="circuit-svg" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="150" cy="150" r="120" stroke="var(--accent)" stroke-width="1" stroke-dasharray="8 4" opacity="0.3"/>
+          <circle cx="150" cy="150" r="80" stroke="var(--accent)" stroke-width="1" opacity="0.2"/>
+          <circle cx="150" cy="150" r="40" fill="var(--accent)" opacity="0.08"/>
+          <circle cx="150" cy="150" r="20" fill="var(--accent)" opacity="0.2"/>
+          <!-- circuit lines -->
+          <line x1="150" y1="30" x2="150" y2="70" stroke="var(--accent)" stroke-width="1.5"/>
+          <line x1="270" y1="150" x2="230" y2="150" stroke="var(--accent)" stroke-width="1.5"/>
+          <line x1="30" y1="150" x2="70" y2="150" stroke="var(--accent)" stroke-width="1.5"/>
+          <line x1="150" y1="270" x2="150" y2="230" stroke="var(--accent)" stroke-width="1.5"/>
+          <rect x="140" y="20" width="20" height="10" fill="var(--accent)" rx="2"/>
+          <rect x="260" y="145" width="10" height="10" fill="var(--accent)" rx="2"/>
+          <rect x="30" y="145" width="10" height="10" fill="var(--accent)" rx="2"/>
+          <rect x="140" y="270" width="20" height="10" fill="var(--accent)" rx="2"/>
+          <!-- diagonal lines -->
+          <line x1="215" y1="85" x2="185" y2="115" stroke="var(--accent)" stroke-width="1" opacity="0.5"/>
+          <line x1="85" y1="85" x2="115" y2="115" stroke="var(--accent)" stroke-width="1" opacity="0.5"/>
+          <line x1="215" y1="215" x2="185" y2="185" stroke="var(--accent)" stroke-width="1" opacity="0.5"/>
+          <line x1="85" y1="215" x2="115" y2="185" stroke="var(--accent)" stroke-width="1" opacity="0.5"/>
+          <!-- dot nodes -->
+          <circle cx="215" cy="85" r="4" fill="var(--accent)" opacity="0.7"/>
+          <circle cx="85" cy="85" r="4" fill="var(--accent)" opacity="0.7"/>
+          <circle cx="215" cy="215" r="4" fill="var(--accent)" opacity="0.7"/>
+          <circle cx="85" cy="215" r="4" fill="var(--accent)" opacity="0.7"/>
+          <!-- initials -->
+          <text x="135" y="158" font-family="Space Mono" font-size="22" fill="var(--accent)" font-weight="700">PK</text>
+        </svg>
+        <div class="pulse-ring"></div>
+        <div class="pulse-ring delay1"></div>
+      </div>
+    </div>
+    <div class="scroll-hint animate-in" style="--delay:1s">
+      <span>scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="about section">
+    <div class="container">
+      <div class="section-label">/ 01 &mdash; About</div>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <h2 class="section-title">Who am I<span class="accent">?</span></h2>
+          <p>
+            A highly adaptable and goal-oriented individual pursuing <strong>B.Tech in Electronics and Communication Engineering</strong> at Aditya College of Engineering, Madanapalle.
+          </p>
+          <p>
+            I bring strong <strong>leadership qualities</strong>, sharp <strong>problem-solving skills</strong>, and a passion for technology. I thrive in collaborative environments and am always eager to learn and grow.
+          </p>
+          <div class="about-info-grid">
+            <div class="info-item">
+              <span class="info-label">Location</span>
+              <span class="info-val">Madanapalle, A.P.</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label">Degree</span>
+              <span class="info-val">B.Tech ECE</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label">CGPA</span>
+              <span class="info-val">7.21 (till 4th sem)</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label">Languages</span>
+              <span class="info-val">English, Telugu, Hindi</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-interpersonal reveal">
+          <h3>Interpersonal Skills</h3>
+          <div class="interp-cards">
+            <div class="interp-card">
+              <div class="interp-icon">&#x1F9E0;</div>
+              <span>Problem Solving</span>
+            </div>
+            <div class="interp-card">
+              <div class="interp-icon">&#x1F4CB;</div>
+              <span>Management & Coordination</span>
+            </div>
+            <div class="interp-card">
+              <div class="interp-icon">&#x2696;&#xFE0F;</div>
+              <span>Decision Making</span>
+            </div>
+            <div class="interp-card">
+              <div class="interp-icon">&#x1F5E3;&#xFE0F;</div>
+              <span>Communication</span>
+            </div>
+          </div>
+          <h3 style="margin-top:2rem">Hobbies</h3>
+          <div class="hobbies">
+            <span class="hobby-tag">&#127925; Music</span>
+            <span class="hobby-tag">&#127916; Movies</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="skills section">
+    <div class="container">
+      <div class="section-label">/ 02 &mdash; Skills</div>
+      <h2 class="section-title reveal">Technical <span class="accent">Stack</span></h2>
+      <div class="skills-grid">
+        <div class="skill-card reveal" data-skill="HTML" data-pct="85">
+          <div class="skill-icon-wrap">
+            <svg viewBox="0 0 50 50" fill="none"><text y="38" font-size="38" font-family="monospace">&lt;/&gt;</text></svg>
+          </div>
+          <div class="skill-info">
+            <span class="skill-name">HTML</span>
+            <span class="skill-tag">Markup</span>
+          </div>
+          <div class="skill-bar-wrap"><div class="skill-bar" style="--w:85%"></div></div>
+        </div>
+        <div class="skill-card reveal" data-skill="CSS" data-pct="80">
+          <div class="skill-icon-wrap">
+            <svg viewBox="0 0 50 50" fill="none"><text y="38" font-size="36" font-family="monospace">#{ }</text></svg>
+          </div>
+          <div class="skill-info">
+            <span class="skill-name">CSS</span>
+            <span class="skill-tag">Styling</span>
+          </div>
+          <div class="skill-bar-wrap"><div class="skill-bar" style="--w:80%"></div></div>
+        </div>
+        <div class="skill-card reveal" data-skill="Python" data-pct="70">
+          <div class="skill-icon-wrap">
+            <svg viewBox="0 0 50 50" fill="none"><text y="38" font-size="34" font-family="monospace">Py</text></svg>
+          </div>
+          <div class="skill-info">
+            <span class="skill-name">Python</span>
+            <span class="skill-tag">Programming</span>
+          </div>
+          <div class="skill-bar-wrap"><div class="skill-bar" style="--w:70%"></div></div>
+        </div>
+        <div class="skill-card reveal" data-skill="SQL" data-pct="65">
+          <div class="skill-icon-wrap">
+            <svg viewBox="0 0 50 50" fill="none"><text y="38" font-size="28" font-family="monospace">SQL</text></svg>
+          </div>
+          <div class="skill-info">
+            <span class="skill-name">SQL</span>
+            <span class="skill-tag">Database</span>
+          </div>
+          <div class="skill-bar-wrap"><div class="skill-bar" style="--w:65%"></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education" class="education section">
+    <div class="container">
+      <div class="section-label">/ 03 &mdash; Education</div>
+      <h2 class="section-title reveal">Academic <span class="accent">Journey</span></h2>
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <div class="tl-dot"></div>
+          <div class="tl-line"></div>
+          <div class="tl-card">
+            <div class="tl-year">2024 &ndash; 2028</div>
+            <h3 class="tl-title">B.Tech — Electronics & Communication Engineering</h3>
+            <div class="tl-school">Aditya College of Engineering, Madanapalle, A.P.</div>
+            <div class="tl-score">CGPA: <strong>7.21</strong> (till 4th Semester)</div>
+          </div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="tl-dot"></div>
+          <div class="tl-line"></div>
+          <div class="tl-card">
+            <div class="tl-year">2022 &ndash; 2024</div>
+            <h3 class="tl-title">Intermediate (MPC)</h3>
+            <div class="tl-school">Siddhartha Junior College, Madanapalle, A.P.</div>
+            <div class="tl-score">Percentage: <strong>59%</strong></div>
+          </div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="tl-dot last"></div>
+          <div class="tl-card">
+            <div class="tl-year">2019 &ndash; 2020</div>
+            <h3 class="tl-title">SSC (Class 10)</h3>
+            <div class="tl-school">Vivekananda Municipal High School, Madanapalle</div>
+            <div class="tl-score">Percentage: <strong>82%</strong></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS & ACTIVITIES -->
+  <section id="certifications" class="certs section">
+    <div class="container">
+      <div class="section-label">/ 04 &mdash; Certifications & Activities</div>
+      <h2 class="section-title reveal">Achievements <span class="accent">&amp;</span> Activities</h2>
+      <div class="certs-grid">
+        <div class="cert-card reveal">
+          <div class="cert-badge">&#127942;</div>
+          <div class="cert-body">
+            <div class="cert-type">Certification</div>
+            <h3>Employment Communication</h3>
+            <div class="cert-issuer">NPTEL</div>
+          </div>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-badge">&#9889;</div>
+          <div class="cert-body">
+            <div class="cert-type">Co-Curricular</div>
+            <h3>Hackathon Organizer</h3>
+            <div class="cert-issuer">Organized events related to Hackathon</div>
+          </div>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-badge">&#127775;</div>
+          <div class="cert-body">
+            <div class="cert-type">Training</div>
+            <h3>Soft Skills Training</h3>
+            <div class="cert-issuer">One-week program on Communication, Teamwork, Leadership &amp; Personality Development</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact section">
+    <div class="container">
+      <div class="section-label">/ 05 &mdash; Contact</div>
+      <h2 class="section-title reveal">Let's <span class="accent">Connect</span></h2>
+      <div class="contact-grid">
+        <div class="contact-card reveal">
+          <div class="contact-icon">&#128222;</div>
+          <div class="contact-label">Phone</div>
+          <a href="tel:9440054975" class="contact-val">+91 9440054975</a>
+        </div>
+        <div class="contact-card reveal">
+          <div class="contact-icon">&#128140;</div>
+          <div class="contact-label">Email</div>
+          <a href="mailto:praveenmunagamanu@gmail.com" class="contact-val">praveenmunagamanu@gmail.com</a>
+        </div>
+        <div class="contact-card reveal">
+          <div class="contact-icon">&#128279;</div>
+          <div class="contact-label">LinkedIn</div>
+          <a href="https://www.linkedin.com/in/praveen-munagamanu" target="_blank" class="contact-val">praveen-munagamanu</a>
+        </div>
+        <div class="contact-card reveal">
+          <div class="contact-icon">&#128205;</div>
+          <div class="contact-label">Address</div>
+          <span class="contact-val">8-105, Babu Colony, Madanapalle</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <span class="footer-name">Munagamanu Praveen Kumar</span>
+      <span class="footer-copy">&copy; 2025 &mdash; All Rights Reserved</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
